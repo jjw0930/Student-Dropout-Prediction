@@ -29,6 +29,12 @@ The column named ['WithLeading ID'] was renamed to ['StudentID']. Additionally, 
 
 Create a new column named ['TermID'] to store both the term and year information.This DataFrame will retain the first column, which represents unique ['StudentID'], alongwith the newly created ['TermID'] and the values from the ['TermGPA'] column.For eachspecified column in the list ['CompleteDevMath', 'CompleteDevEnglish', 'Complete1','Complete2', 'CompleteCIP1', 'CompleteCIP2', 'DegreeTypeSought'], the function willcalculate both the total GPA and the count of terms. The resulting total and count foreach column will be added to the new columns. These new columns will be named['Total_ColumnName', 'Count_ColumnName'], respectively, where ['ColumnName'] is thename of the column being processed.
 
+# Data Labels
+<img width="519" alt="Screenshot 2024-07-03 at 4 26 43 PM" src="https://github.com/jjw0930/Student-Dropout-Prediction/assets/163229179/61b2b178-849d-4007-8523-75605cbffde5">
+
+
+
+
 # Analytical Approach
 Data Preprocessing:
 I approached categorical and numerical data in distinct ways:Mean imputation and standard scaling were used to numerical characteristics, whileone-hot encoding was used to fill categorical variables with the most common values.After that, I used TestIDs and Dropout labels to select datasets for Kaggle testing andtraining. After this configuration, operations were combined and the inputs (X) andoutputs (Y) for the models were specified. I separated the data after preprocessing toproduce separate training and test sets. The best-performing model was subsequentlychosen after we tested several classifiers on the validation set. This model was then used to forecast results on the Kaggle test data, resulting in an output of a structuredDataFrame.
