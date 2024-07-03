@@ -18,6 +18,10 @@ Static Data: includes demographic data such age, gender, race/ethnicity, educati
 history, GPA from high school, and previous college enrollment. Because it remains
 constant over time, this data set is static.
 
+# Python Libraries Used
+<img width="1408" alt="Screenshot 2024-07-03 at 2 13 19 PM" src="https://github.com/jjw0930/Student-Dropout-Prediction/assets/163229179/4579f9af-9ed2-47f1-8aae-9deba6eba9b6">
+
+
 # Data Cleaning and Preparation
 Data cleansing was conducted on three distinct datasets involving the removal ofcolumns with over 40% missing values, the substitution of -1 values with NaN, and theexclusion of rows with negative values in the value columns. 
 
