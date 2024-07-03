@@ -32,7 +32,7 @@ Create a new column named ['TermID'] to store both the term and year information
 # Data Labels
 <img width="519" alt="Screenshot 2024-07-03 at 4 26 43 PM" src="https://github.com/jjw0930/Student-Dropout-Prediction/assets/163229179/61b2b178-849d-4007-8523-75605cbffde5">
 
-
+<img width="518" alt="Screenshot 2024-07-03 at 4 30 29 PM" src="https://github.com/jjw0930/Student-Dropout-Prediction/assets/163229179/58d7fcc7-39cd-4b9c-b934-69d9c390421a">
 
 
 # Analytical Approach
